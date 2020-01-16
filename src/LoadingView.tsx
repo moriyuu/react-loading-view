@@ -79,10 +79,10 @@ const StyledLoadingView = styled.div`
 
   > .blur {
     background-image: linear-gradient(
-      transparent 0%,
+      rgba(251, 251, 251, 0) 0%,
       #fbfbfb 45%,
       #fbfbfb 55%,
-      transparent 100%
+      rgba(251, 251, 251, 0) 100%
     );
     opacity: 0.8;
     height: 300%;
